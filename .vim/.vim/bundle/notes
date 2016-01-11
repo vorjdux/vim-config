@@ -1,0 +1,73 @@
+div.module-imageblock {
+	width: 100%;
+	position: relative;
+	text-align: center;
+}
+
+div.module-imageblock img {
+	position: relative;
+}
+
+
+	div.module-imageblock img.rounded {
+		border-radius: 5px;
+	}
+
+
+div.module-imageblock img.hover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+div.module-imageblock p {
+	padding: 10px 0 0 0 !important;
+	font-size: 13px !important;
+	line-height: 20px !important;
+	text-align: center;
+}
+div.module-imageblock > a {
+	text-decoration: none;
+	color: #666;
+	position: relative;
+	display: block;
+}
+div.module-imageblock a:hover { color: #999; }
+div.module-imageblock a.button { margin-top: 10px !important }
+
+div.module-imageblock {
+	padding: 30px 20px;
+	-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;
+}
+
+div.module-imageblock > h2 {
+	font-family: ProximaNova, sans-serif !important;
+	font-size: 15px !important;
+	font-weight: bold !important;
+	color: #202226 !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	line-height: 40px;
+}
+
+div.module-imageblock > p {
+	font-size: 13px !important;
+	line-height: 40px !important;
+	color: #969696;
+}
+
+div.module-imageblock > a.button {
+	background: transparent url(/od-static/templates/pai/assets/images/body/button-transparent.png) repeat;
+	border: 2px solid #37a5e9;
+	color: #37a5e9 !important;
+	height: 34px;
+	line-height: 30px !important;
+	display: inline-block;
+	font-size: 12px !important;
+	-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;
+}
+div.module-imageblock > a.button:hover {
+	color: #fff !important;
+	background: #37a5e9 !important;
+}
